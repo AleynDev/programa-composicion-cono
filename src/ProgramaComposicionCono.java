@@ -19,6 +19,7 @@ public class ProgramaComposicionCono {
      * @param args
      */
     public static void main (String[] args) {
+        // Instancia del método Ranom para generar números aleatorios
         java.util.Random aleatorio = new java.util.Random();
         for (int i=1; i<=5; i++) {
             int radio = aleatorio.nextInt(9)+1;
